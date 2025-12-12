@@ -1,7 +1,9 @@
-.movie-card {
-    color: #fff;
-}
+.movie-list{
+    padding: 24px 3%;
 
-.description {
-    color: aqua;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    list-style: none;
+    width: 100%;
 }
